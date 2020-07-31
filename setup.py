@@ -16,7 +16,8 @@ setup(
     package_dir={'': 'src'},
 
     install_requires=[
-        "aws-cdk.core==1.55.0",
+        "aws-cdk.core",
+        "aws-cdk.aws-s3"
     ],
 
     python_requires=">=3.6",
